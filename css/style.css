@@ -5,8 +5,8 @@
 }
 
 .all {
-  width: 2880px;
-  height: 1578px;
+  max-width: 100%;
+  position: relative;
   }
 
 .header {
@@ -30,12 +30,17 @@
 }
 
 .photo-item {
+  position: absolute;
+  z-index: 10;
   width: 50%;
-  margin: 100px 0 0 auto;
+  top: 130px;
+  left: 765px;
   display: block;
 }
 
 .main-logo {
+  position: absolute;
+  top: 500px;
   font-size: 70px;
 }
 
@@ -44,8 +49,11 @@
 }
 
 .footer {
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  top: 570px;
+  z-index: 0;
+  width: 1100px;
+  height: 200px;
   background: rgb(26, 26, 174);
-  margin-bottom: 80px;
+  
   }
