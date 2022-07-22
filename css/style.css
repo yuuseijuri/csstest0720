@@ -24,6 +24,9 @@
 .header-right ul {
   font-size: 18px;
   font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
 }
 
 .list-1, .list-2, .list-3, .list-4 {
