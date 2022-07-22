@@ -12,17 +12,18 @@
 .header {
   padding: 20px 30px;
   color: rgb(0, 94, 255);
+  display: flex;
+  justify-content: space-between;
 }
+
 .header-left {
   font-size: 26px;
   line-height: 66px;
 }
 
-.header-right  {
+.header-right ul {
   font-size: 18px;
   font-weight: bold;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .list-1, .list-2, .list-3, .list-4 {
